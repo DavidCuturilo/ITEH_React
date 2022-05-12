@@ -1,7 +1,7 @@
 import React from 'react'
 import '../App.css'
+import Cards from '../components/Cards';
 import Section from '../components/Section';
-import Cards from '../Cards'
 
 
 function Home(){
