@@ -9,11 +9,11 @@ function Section() {
         <div className='hero-container'>
             <video src='/video/travel.mp4' autoPlay loop muted/>
 
-            <h1>Putujte sa nama!</h1>
-            <p>Istrazite planetu</p>
+            <h1>Travel with us!</h1>
+            <p>Explore the planet</p>
             <div className="hero-btns">
                 <Button className='btns' buttonStyle = 'btn--outline'
-                buttonSize='btn--large'>Počnite</Button>
+                buttonSize='btn--large'>Begin</Button>
 
 
             </div>
