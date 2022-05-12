@@ -28,7 +28,7 @@ function Navbar(){
         <nav className="navbar">
             <div className="navbar-container">
             <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-                OKO SVETA <i className="fas fa-globe-europe"></i>
+            AROUND THE WORLD <i className="fas fa-globe-europe"></i>
             </Link>
             <div className="menu-icon" onClick={handleClick}>
                 <i className={click ? 'fas fa-times' : 'fas fa-bars'}/>
@@ -36,17 +36,17 @@ function Navbar(){
             <ul className={click ? 'nav-menu active' : 'nav-menu'}>
              <li className="nav-item">
                  <Link to='/' className='nav-links' onClick={closeMobileMenu}>
-                     Početna
+                     Home page
                  </Link>
              </li>
              <li className="nav-item">
-                 <Link to='/ponuda' className='nav-links' onClick={closeMobileMenu}>
-                     Ponuda
+                 <Link to='/offer' className='nav-links' onClick={closeMobileMenu}>
+                     Offer
                  </Link>
              </li>
 
             </ul>
-            {button && <Button buttonStyle='btn--outline'>Kontakt</Button>}
+            {button && <Button buttonStyle='btn--outline'>Contact</Button>}
             </div>
         </nav>
     )
