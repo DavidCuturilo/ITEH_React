@@ -5,6 +5,19 @@
   font-family: 'PT Sans', sans-serif;
 }
 
+.ponuda{
+  margin-top: 30px;
+}
+
+.body{
+  background: url('./images/pozadina.jpg') center center/cover no-repeat;
+  height: 700px; 
+  width: 100%;
+
+  margin: 0;
+  padding-top: 30px;
+}
+
 .home,
 .services,
 .products,
