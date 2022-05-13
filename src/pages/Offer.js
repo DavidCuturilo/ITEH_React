@@ -6,7 +6,6 @@ import Footer from '../components/Footer'
 export default function Offer(){
     return(
         <>
-            <h1 className='offer'>Offer</h1>
             <Cards/>
             <Footer/>
         </>

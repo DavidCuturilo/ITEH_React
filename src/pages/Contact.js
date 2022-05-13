@@ -7,7 +7,7 @@ export default function Contact(){
     return(
         <>
             <div className='body'>
-                <h1> Contact </h1>
+                <h1> Contact us</h1>
                 <Form/>
             </div>
             <Footer/>

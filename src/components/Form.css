@@ -33,6 +33,15 @@
      border: 0;
      font-family: "Roboto", sans-serif;
    }
+
+   .form-field-invalid{
+    margin: 5px 0 5px 0;
+    padding: 15px;
+    font-size: 16px;
+    border: 0;
+    font-family: "Roboto", sans-serif;
+    background-color: red;
+  }
  
    span {
      font-family: "Roboto", sans-serif;
