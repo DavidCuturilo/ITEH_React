@@ -12,10 +12,10 @@
 
   .navbar-container {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     height: 80px;
-    max-width: 1500px;
+    width: 100%;
   }
 
   .navbar-logo {
@@ -133,6 +133,10 @@
     .fa-times {
       color: #fff;
       font-size: 2rem;
+    }
+
+    .fas {
+      margin-left: 5px;
     }
 
     .nav-links-mobile {

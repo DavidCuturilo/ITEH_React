@@ -8,10 +8,8 @@ function Section() {
     return (
         <div className='hero-container'>
             <h1>Travel with us!</h1>
-            <p>Explore the planet</p>
             <div className="hero-btns">
-                <Button className='btns' buttonStyle = 'btn--outline'
-                buttonSize='btn--large'>Begin</Button>
+                <Button className='btns' buttonSize='btn--large'>Begin</Button>
             </div>
         </div>
     )
