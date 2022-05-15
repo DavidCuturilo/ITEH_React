@@ -3,5 +3,5 @@
     flex-direction: column;
     display: flex;
     height: 30%;
-    justify-content: end;
+    justify-content: flex-end;
 }
