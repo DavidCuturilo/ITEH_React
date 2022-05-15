@@ -5,12 +5,12 @@ import Footer from '../components/Footer';
 import Section from '../components/Section';
 
 
-function Home(){
+function Home({addSubscriber}){
     return (
         <>
         <Section/>
         <Cards/>
-        <Footer/>
+        <Footer subscribeMail = {addSubscriber}/>
         </>
     );
 }

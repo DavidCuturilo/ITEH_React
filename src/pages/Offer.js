@@ -3,11 +3,11 @@ import '../App.css'
 import Cards from '../components/Cards'
 import Footer from '../components/Footer'
 
-export default function Offer(){
+export default function Offer({addSubscriber}){
     return(
         <>
             <Cards/>
-            <Footer/>
+            <Footer subscribeMail = {addSubscriber}/>
         </>
     )
 } 

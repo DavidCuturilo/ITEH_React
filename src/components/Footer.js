@@ -3,11 +3,11 @@ import { Button } from './Button'
 import './Footer.css'
 // import {Link} from 'react-router-dom'
 
-function Footer() {
-    function subscribeMail(){
-        document.getElementById('subscribe').value = ''
-        alert("Thank you for your subscription!")
-    }
+function Footer({subscribeMail}) {
+    // function subscribeMail(){
+    //     document.getElementById('subscribe').value = ''
+    //     alert("Thank you for your subscription!")
+    // }
 
     return (
         <div className='footer-container'>

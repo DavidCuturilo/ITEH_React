@@ -18,6 +18,10 @@
     width: 100%;
   }
 
+  .logo {
+    margin-right: 5px;
+  }
+
   .navbar-logo {
     color: #fff;
     justify-self: start;
